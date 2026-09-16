@@ -1,10 +1,10 @@
 # LAPORAN PRAKTIKUM BAB 1
 ## Fondasi Teoretis dan Kerangka Kerja DevSecOps
 
-**Nama**: ........................................................  
-**NIM**: ..........................................................  
-**Kelas**: ........................................................  
-**Tanggal pelaksanaan**: 15 September 2026  
+**Nama**: Dafa Ahmad Fahrisi
+**NRP**: 3126640010
+**Kelas**: RPL ITB
+**Tanggal pelaksanaan**: 21 Agustus 2026 
 
 ## 1. Tujuan Praktikum
 
