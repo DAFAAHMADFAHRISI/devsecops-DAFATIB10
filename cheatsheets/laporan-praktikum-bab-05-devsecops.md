@@ -7,10 +7,6 @@ Workshop DevOps & DevSecOps
 **Disusun Oleh:**  
 - **Nama:** Dafa Ahmad Fahrisi  
 - **NRP:** 3126640010  
-- **Program Studi:** D4 Lanjut Jenjang Teknik Informatika  
-- **Institusi:** Politeknik Elektronika Negeri Surabaya  
-- **Tahun:** 2026  
-
 ---
 
 ## 1. TUJUAN PRAKTIKUM
