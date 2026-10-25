@@ -7,6 +7,7 @@ Workshop DevOps & DevSecOps
 **Disusun Oleh:**  
 - **Nama:** Dafa Ahmad Fahrisi  
 - **NRP:** 3126640010  
+
 ---
 
 ## 1. TUJUAN PRAKTIKUM
@@ -36,7 +37,7 @@ Sebuah *backup* tidak memiliki nilai kepastian sebelum berhasil dipulihkan melal
 ### Diagram Arsitektur Lab Bab 5
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph Host["Host Machine"]
         subgraph Ports["Published Ports"]
             P5050["Port 5050 (Host)"]
@@ -64,14 +65,14 @@ graph TD
         end
     end
 
-    P5050 -->|HTTP Browser| PGAdminApp
-    P5432 -->|TCP Client/psql| PGEngine
-    PGAdminApp -->|Koneksi Internal (DNS: postgres-db:5432)| PGEngine
+    P5050 -->|"HTTP Browser"| PGAdminApp
+    P5432 -->|"TCP Client / psql"| PGEngine
+    PGAdminApp -->|"Koneksi Internal DNS postgres-db:5432"| PGEngine
 
-    InitDir -.->|Inisialisasi Pertama| InitTarget
+    InitDir -.->|"Inisialisasi Pertama"| InitTarget
     PGEngine --> DataDir
     DataDir === NamedVol
-    PGEngine -->|pg_dump / pg_restore| BackupTarget
+    PGEngine -->|"pg_dump / pg_restore"| BackupTarget
     BackupTarget === BackupDir
     PGEngine --> Healthcheck
 ```
